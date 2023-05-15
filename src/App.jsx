@@ -4,9 +4,9 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="h-screen flex flex-col items-center">
-        <div className="w-full px-40">
-          <h1 className="text-4xl pt-6 pb-2 font-bold">Pontos Turísticos</h1>
+      <div className="h-full w-full bg-gray-100">
+        <div className="w-full px-40 flex flex-col">
+          <h1 className="text-4xl pt-6 mb-6 font-bold">Pontos Turísticos</h1>
           <Post
             titulo="Igreja dos Santos Cosme e Damião"
             subtitulo="Igarassu"
